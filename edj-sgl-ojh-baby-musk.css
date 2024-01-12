@@ -273,7 +273,6 @@ p1{
 
 .services .heading{
 	display: grid;
-	grid-template-rows: 1fr 2fr;
 	grid-gap: 2em;
 }
 
@@ -642,7 +641,6 @@ footer p{
 	}
 }
 
-
 .babymuskall{
 	width: 100%;
 	z-index: 3;
@@ -653,3 +651,17 @@ footer p{
 	height: auto;
 	font-size: 16px;
 }
+
+
+.tokenomics{
+	font-size: 1em;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	margin: 10em 0 4em 0;
+}
+
+
