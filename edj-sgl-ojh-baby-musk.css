@@ -568,6 +568,10 @@ footer p{
 	margin: 1em 0;
 }
 
+.banner{
+	max-width: 55%;
+}
+
 @media screen and (max-width: 700px){
 	.menu-btn{
 		display: block;
@@ -612,6 +616,7 @@ footer p{
 	}
 	.services .cards{
 		flex-direction: column;
+		gap: 8em;
 	}
 	.services .card{
 		width: 80%;
@@ -624,8 +629,15 @@ footer p{
 	    display: flex;
 	    flex-direction: row;
 	}
-	.cards{
-		gap: 8em;
+	.explore {
+	    display: grid;
+	    grid-template-columns: none;
+	    grid-template-rows: 1fr 1fr;
+	    grid-gap: 2em;
+	}
+
+	.banner{
+		max-width: 100%;
 	}
 }
 
