@@ -124,6 +124,7 @@ header .container{
 	background: linear-gradient(90deg, #48fc8b, #1de7ea);
 	color: #fff;
 	border: none;
+	text-align: center;
 }
 
 .btn-primary:hover{
@@ -240,7 +241,7 @@ h4{
 p1{
 	text-align: center;
 	max-width: 90%;
-	font-size: 1.5vw;
+	font-size: 3vw;
 	color: #fff;
 }
 
