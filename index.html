@@ -263,5 +263,24 @@
       <h>2023 <i class="fas fa-copyright"></i>BabyMusk. Powered by X LTD</h>
     </div>
     <script src="babymusk.js"></script>
+    <script>   
+    document.addEventListener('DOMContentLoaded', function () {
+    var contentToCopy = document.getElementById('contentToCopy');
+    var copyIcon = document.getElementById('copyIcon');
+
+    copyIcon.addEventListener('click', function () {
+        var tempTextArea = document.createElement('textarea');
+        tempTextArea.value = contentToCopy.textContent;
+
+        document.body.appendChild(tempTextArea);
+
+        tempTextArea.select();
+        tempTextArea.setSelectionRange(0, 99999);
+
+        document.execCommand('copy');
+
+        document.body.removeChild(tempTextArea);
+    });
+});</script>
   </body>
 </html>
