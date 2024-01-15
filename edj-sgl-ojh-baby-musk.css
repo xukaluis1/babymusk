@@ -225,7 +225,7 @@ h1{
 }
 .babymusk img{
 	max-width: 100%;
-      height: auto;
+    height: auto;
 }
 h4{
 	margin: 2em auto 3em auto;
@@ -663,5 +663,66 @@ footer p{
 	gap: 2em;
 	margin: 10em 0 4em 0;
 }
+.voltichange{
+	display: flex;
+	justify-content: center;
+}
+.voltinu img{
+	max-width: 100%;
+	height: auto;
+}
+.flex-volt{
+	display: flex;
+	justify-content: center;
+}
 
+.flex-container{
+	width: 100%;
+	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	white-space: nowrap;
+  	flex-wrap: wrap;
+  	will-change: transform;
+  	margin-top: 5%;
+}
+.flex-row {
+	width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex: 1;
+  	overflow: hidden;
+}
+
+.boxpa {
+  	width: 170px;
+  	height: 170px;
+  	border: 1px solid transparent;
+  	box-shadow: 0 0 5px #bcb83d, 0 0 10px #bcb83d, 0 0 15px #bcb83d;
+  	border-radius: 5%;
+  	margin: 15px;
+  	display: flex; 
+  	flex-direction: column;
+  	position: relative;
+  	justify-content: center;
+  	align-items: center;
+  	overflow: hidden;
+}
+.boxpa p{
+	color: white;
+	font-size: 1em;
+}
+.boxpa img{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+@media (max-width: 560px){
+	.boxpa {
+  	width: 170px;
+  	height: 130px;
+  }
+}
 
